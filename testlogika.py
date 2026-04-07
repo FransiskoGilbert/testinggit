@@ -86,7 +86,7 @@ for pin in PIN_TO_MACHINE.keys():
 print("Monitoring status mesin mulai....")
 
 def cleanup(sig,frame):
-	print("\nProgram dihentikan")
+	print("\nProgram diberhentikan loh ya loh ya")
 	GPIO.cleanup()
 	sys.exit(0)
 
